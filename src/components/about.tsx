@@ -13,7 +13,7 @@ export default function About() {
 					<div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary/10 mb-4">
 						<Image src="/danijel.jpg" alt={CONTACT_INFO.name} fill className="object-cover" priority />
 					</div>
-					<div className="flex flex-col items-center gap-2 text-sm text-muted-foreground">
+					{/* <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground">
 						<div className="flex items-center gap-2">
 							<Mail className="h-4 w-4" />
 							<Link href={`mailto:${CONTACT_INFO.email}`} className="hover:text-foreground transition-colors">
@@ -28,16 +28,16 @@ export default function About() {
 							<MapPin className="h-4 w-4" />
 							<span>{CONTACT_INFO.location}</span>
 						</div>
-					</div>
+					</div> */}
 					<div className="flex gap-4 mt-4">
 						<Link href={CONTACT_INFO.github} className="text-muted-foreground hover:text-foreground transition-colors">
 							<SiGithub className="h-5 w-5" />
 							<span className="sr-only">GitHub</span>
 						</Link>
-						<Link href={CONTACT_INFO.linkedin} className="text-muted-foreground hover:text-foreground transition-colors">
+						{/* <Link href={CONTACT_INFO.linkedin} className="text-muted-foreground hover:text-foreground transition-colors">
 							<SiLinkedin className="h-5 w-5" />
 							<span className="sr-only">LinkedIn</span>
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 				<div className="w-full md:w-2/3">
