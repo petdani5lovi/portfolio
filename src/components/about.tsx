@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Phone, MapPin } from "lucide-react"
-import { SiGithub, SiLinkedin } from "react-icons/si"
+import { SiGithub } from "react-icons/si"
 import Link from "next/link"
 import Image from "next/image"
 import { CONTACT_INFO, PROFILE_DESCRIPTION } from "@/utils/constants"
